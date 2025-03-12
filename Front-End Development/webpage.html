@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+</style>
+</head>
+<body>
+<div class="div1">
+<header>
+<h1>Nature's Beauty</h1>
+</header>
+<nav>
+<ul>
+<li><a href="main-webpage.html">Home</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="landscape.html">Landscapes</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+</nav>
+</div>
+<br>
+<section>
+<h2>Experience the Tranquility of Nature</h2>
+<p style="font-size:1em">Discover the beauty of landscapes, flowers, and sunsets.</p>
+<img class="img1" src="landscape.jpg">
+</section>
+<br><br>
+<h2>Popular Landscapes and Their Features</h2>
+<table class="table1">
+        <tr>
+            <th>Landscape</th>
+            <th>Key Features</th>
+            <th>Famous Locations</th>
+        </tr>
+        <tr>
+            <td>Forests</td>
+            <td>Dense greenery, diverse wildlife, fresh air</td>
+            <td>Amazon Rainforest, Black Forest (Germany)</td>
+        </tr>
+        <tr>
+            <td>Mountains</td>
+            <td>High peaks, scenic views, adventure sports</td>
+            <td>Himalayas, Alps, Rocky Mountains</td>
+        </tr>
+        <tr>
+            <td>Beaches</td>
+            <td>Soft sand, waves, relaxation, water sports</td>
+            <td>Maldives, Bondi Beach (Australia), Waikiki (Hawaii)</td>
+        </tr>
+        <tr>
+            <td>Deserts</td>
+            <td>Vast dunes, extreme climate, unique flora & fauna</td>
+            <td>Sahara Desert, Thar Desert, Atacama Desert</td>
+        </tr>
+        <tr>
+            <td>Waterfalls</td>
+            <td>Cascading water, misty surroundings, scenic beauty</td>
+            <td>Niagara Falls, Angel Falls, Iguazu Falls</td>
+        </tr>
+</table>
+<br><br><br>
+<section class="gallery-section">
+<h2>Our Gallery</h2>
+<div class="gallery">
+<img src="scenery.jpg" alt="scenery">
+<img src="flower.jpg" alt="flower">
+<img src="sunset.jpg" alt="sunset">
+<img src="mountain.jpg" alt="mountain">
+<img src="wildlife.jpeg" alt="wildlife">
+</div>
+<a href="gallery.html" class="gallery-button">View More</a>
+</section>
+<br><br>
+<section>
+<article>
+<h2>Discover Popular Landscapes!</h2>
+<img class="imgfloat" src="forest.jpg" alt="Forest Scene">
+<h3>The Serenity of Forests</h3>
+<p>Forests are the lungs of our planet, providing us with fresh air and a home for countless species. The dense canopy, the rustling leaves, and the chirping birds create an ecosystem of harmony. Exploring a forest can be a therapeutic experience, allowing us to reconnect with nature and find inner peace.</p>
+<p>Many people find comfort in hiking through lush green forests, breathing in the fresh earthy scent. Whether it's the Amazon rainforest or a quiet local woodland, nature's presence is undeniably calming and restorative.</p>
+</article>
+<aside>
+<i><h3>Did You Know?</h3>
+<p>Forests cover about 31% of the Earth's land area and are home to 80% of the planet's terrestrial species. They help regulate climate, filter air, and provide essential resources.</p>
+<p>The International Day of Forests is celebrated every year on March 21<sup>st</sup>.</p></i>
+</aside>
+<a href="forest.html" class="button">Read More</a>
+</section>
+<br><br><br>
+<section class="explore-landscapes">
+<h2>Explore More Landscapes</h2>
+<div class="landscape1">
+<a href="beach.html">
+<div class="image-container">
+<div class="div3">Beach</div>
+<img src="beach2.jpg" alt="Beach">
+</div></a>
+<a href="desert.html">
+<div class="image-container">
+<div class="div3">Desert</div>
+<img src="desert.jpg" alt="Desert">
+</div></a>
+<a href="mountains.html">
+<div class="image-container">
+<div class="div3">Mountains</div>
+<img src="mountain2.jpg" alt="Mountains">
+</div></a>
+<a href="waterfall.html">
+<div class="image-container">
+<div class="div3">Waterfall</div>
+<img src="waterfall2.jpg" alt="Waterfall">
+</div></a>
+</div>
+<a href="landscape.html" class="button">View All</a>
+</section>
+<br><br><br><br>
+<section id="form">
+    <h2 id="h2">Share Your Nature Experience</h2>
+    <form action="/action_page.php">
+    <fieldset>
+    <legend>Form - Your Favorite Nature Moment</legend><br>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="age_group">Age Group:</label>
+    <input type="radio" id="18-25" name="age_group" value="18-25" required> 
+    <label for="18-25">18-25</label>
+    <input type="radio" id="26-35" name="age_group" value="26-35"> 
+    <label for="18-25">26-35</label>
+    <input type="radio" id="36-45" name="age_group" value="36-45">
+    <label for="36-45">36-45</label>
+    <input type="radio" id="46+" name="age_group" value="46+">
+    <label for="46+">46+</label><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="nature_hobbies">Select your nature hobbies:</label><br>
+    <input type="checkbox" id="trekking" name="nature_hobbies" value="trekking"> 
+    <label for="trekking">Trekking</label><br>
+    <input type="checkbox" id="nature_photography" name="nature_hobbies" value="nature_photography"> 
+    <label for="nature_photography">Nature Photography</label><br>
+    <input type="checkbox" id="bird_watching" name="nature_hobbies" value="bird_watching"> 
+    <label for="bird_watching">Bird Watching</label><br>
+    <input type="checkbox" id="camping" name="nature_hobbies" value="camping"> 
+    <label for="camping">Camping</label><br><br>
+    <label for="experience">Describe Your Experience:</label><br>
+    <textarea id="experience" name="experience" rows="5" cols="40" required></textarea><br><br>
+    <input type="submit" value="Submit">
+    </fieldset>
+    </form>
+    </section>
+    <br><br>
+<footer>
+<p>&copy; 2025 Nature's Beauty. All rights reserved.</p>
+</footer>
+</body>
+</html>
